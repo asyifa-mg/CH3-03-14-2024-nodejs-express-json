@@ -167,10 +167,3 @@ app.listen(PORT, () => {
   console.log(`APP running on port : ${PORT}`);
 });
 
-// app.get("/", defaultRouter);
-// app.route("/api/v1/customers").get(getCustomers).post(createCustomer);
-// app
-//   .route("/api/v1/customers/:id")
-//   .get(getCustomersById)
-//   .patch(updateCustomer)
-//   .delete(deleteCustomer);
